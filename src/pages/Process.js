@@ -1,6 +1,6 @@
 export default function Process() {
   return (
-    <>
+    <div>
       <h1>Process</h1>
       <div>
         <h2>Create AI strategy</h2>
@@ -24,6 +24,6 @@ export default function Process() {
         <h2>Maintain and Evaluate the product</h2>
         <p>Assess the solution and improve it with time!</p>
       </div>
-    </>
+    </div>
   );
 }
