@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/agenci-website/home/static/css/main.1ccb374f.css",
-    "main.js": "/agenci-website/home/static/js/main.2584d063.js",
-    "static/js/787.c30699d3.chunk.js": "/agenci-website/home/static/js/787.c30699d3.chunk.js",
-    "index.html": "/agenci-website/home/index.html",
-    "main.1ccb374f.css.map": "/agenci-website/home/static/css/main.1ccb374f.css.map",
-    "main.2584d063.js.map": "/agenci-website/home/static/js/main.2584d063.js.map",
-    "787.c30699d3.chunk.js.map": "/agenci-website/home/static/js/787.c30699d3.chunk.js.map"
+    "main.css": "/agenci-website/static/css/main.1ccb374f.css",
+    "main.js": "/agenci-website/static/js/main.c206ce58.js",
+    "static/js/787.c30699d3.chunk.js": "/agenci-website/static/js/787.c30699d3.chunk.js",
+    "index.html": "/agenci-website/index.html",
+    "main.1ccb374f.css.map": "/agenci-website/static/css/main.1ccb374f.css.map",
+    "main.c206ce58.js.map": "/agenci-website/static/js/main.c206ce58.js.map",
+    "787.c30699d3.chunk.js.map": "/agenci-website/static/js/787.c30699d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ccb374f.css",
-    "static/js/main.2584d063.js"
+    "static/js/main.c206ce58.js"
   ]
 }
