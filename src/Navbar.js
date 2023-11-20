@@ -7,7 +7,7 @@ export default function Navbar() {
         AgencI
       </Link>
       <ul>
-        <CustomLink to="/agenci-website/pricing">Pricing</CustomLink>
+        <CustomLink to="/agenci-website/process">Process</CustomLink>
         <CustomLink to="/agenci-website/about">About</CustomLink>
         <CustomLink to="/agenci-website/projects">Projects</CustomLink>
       </ul>
