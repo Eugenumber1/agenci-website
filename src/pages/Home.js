@@ -1,7 +1,7 @@
 import { Widget } from "@typeform/embed-react";
 import React from "react";
-import { Buttons } from "../buttons.js";
-import "../index.css";
+import { Buttons } from "./buttons.js";
+import "./index.css";
 
 const Typeform = () => {
   return <Widget id="tPgi0YGC" className="myTypeform" />;
