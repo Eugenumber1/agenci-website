@@ -1,6 +1,6 @@
 import { Widget } from "@typeform/embed-react";
 import React from "react";
-import { Buttons } from "/Users/zhenyabudnyk/Documents/myProjects/AgencI/src/agenci-website/src/buttons/buttons.js";
+import { Buttons } from "../buttons.js";
 import "/Users/zhenyabudnyk/Documents/myProjects/AgencI/src/agenci-website/src/index.css";
 
 const Typeform = () => {
