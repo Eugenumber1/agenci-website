@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap');
+:root {
+    --accent: rgba(103, 102, 143, 1);
+    --background: rgba(2, 2, 3, 1);
+    --body-font-family: "FiraSans-Regular"/*, Helvetica*/;
+    --body-font-size: 32px;
+    --body-font-style: normal;
+    --body-font-weight: 400;
+    --body-letter-spacing: 0px;
+    --body-line-height: normal;
+    --heading-font-family: "FiraSans-Bold";
+    --heading-font-size: 64px;
+    --heading-font-style: normal;
+    --heading-font-weight: 700;
+    --heading-letter-spacing: 0px;
+    --heading-line-height: normal;
+    --link-font-family: "FiraSans-Italic";
+    --link-font-size: 32px;
+    --link-font-style: italic;
+    --link-font-weight: 400;
+    --link-letter-spacing: 0px;
+    --link-line-height: normal;
+    --navigation-font-family: "FiraSans-Bold";
+    --navigation-font-size: 48px;
+    --navigation-font-style: normal;
+    --navigation-font-weight: 700;
+    --navigation-letter-spacing: 0px;
+    --navigation-line-height: normal;
+    --primary: rgba(128, 127, 164, 1);
+    --secondary: rgba(17, 17, 24, 1);
+    --text: rgba(243, 243, 247, 1);
+}

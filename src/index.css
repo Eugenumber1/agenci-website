@@ -1,12 +1,18 @@
+@import url('/Users/zhenyabudnyk/Documents/myProjects/AgencI/src/agenci-website/src/styleguide.css');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  /*font-family: 'Fira Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #020203;
+  color: #f3f3f7;
+  
 }
-
+/* 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -64,4 +70,218 @@ code {
 
 .homePage{
   height: 100%;
+} */
+
+.main-design {
+  background-color: #020203;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
+
+.main-design .div {
+  background-color: var(--background);
+  height: 1024px;
+  position: relative;
+  width: 1440px;
+}
+
+.main-design .header {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  padding: 0px 40px;
+  position: absolute;
+  top: 26px;
+  width: 1440px;
+}
+
+.main-design .text-wrapper {
+  color: var(--text);
+  font-family: var(--navigation-font-family);
+  font-size: var(--navigation-font-size);
+  font-style: var(--navigation-font-style);
+  font-weight: var(--navigation-font-weight);
+  height: 57px;
+  letter-spacing: var(--navigation-letter-spacing);
+  line-height: var(--navigation-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 159px;
+  text-decoration: none;
+}
+
+.main-design .navbar {
+  align-items: center;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  position: relative;
+  width: 579px;
+  list-style-type: none;
+}
+
+.main-design .text-wrapper-2 {
+  color: var(--text);
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-style: var(--body-font-style);
+  font-weight: var(--body-font-weight);
+  height: 32px;
+  letter-spacing: var(--body-letter-spacing);
+  line-height: var(--body-line-height);
+  margin-left: -39px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 203px;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.main-design .text-wrapper-3 {
+  color: var(--text);
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-style: var(--body-font-style);
+  font-weight: var(--body-font-weight);
+  height: 32px;
+  letter-spacing: var(--body-letter-spacing);
+  line-height: var(--body-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 203px;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.main-design .text-wrapper-4 {
+  color: var(--text);
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-style: var(--body-font-style);
+  font-weight: var(--body-font-weight);
+  height: 32px;
+  letter-spacing: var(--body-letter-spacing);
+  line-height: var(--body-line-height);
+  margin-right: -39px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 203px;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.main-design .p {
+  color: var(--text);
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size);
+  font-style: var(--heading-font-style);
+  font-weight: var(--heading-font-weight);
+  left: 155px;
+  letter-spacing: var(--heading-letter-spacing);
+  line-height: var(--heading-line-height);
+  position: absolute;
+  text-align: center;
+  top: 205px;
+  width: 1130px;
+}
+
+.main-design .welcome-to-the-place {
+  color: var(--text);
+  font-family: "Fira Sans-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 155px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 413px;
+  width: 1130px;
+}
+
+.main-design .span {
+  color: #f3f3f7;
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-style: var(--body-font-style);
+  font-weight: var(--body-font-weight);
+  letter-spacing: var(--body-letter-spacing);
+  line-height: var(--body-line-height);
+}
+
+.main-design .text-wrapper-5 {
+  font-family: var(--link-font-family);
+  font-size: var(--link-font-size);
+  font-style: var(--link-font-style);
+  font-weight: var(--link-font-weight);
+  letter-spacing: var(--link-letter-spacing);
+  line-height: var(--link-line-height);
+}
+
+.main-design .CTA {
+  align-items: center;
+  display: inline-flex;
+  gap: 24px;
+  justify-content: center;
+  left: 446px;
+  position: absolute;
+  top: 676px;
+}
+
+.main-design .main-cta {
+  display: flex !important;
+  width: 214px !important;
+}
+
+.main-design .secondary-cta {
+  display: flex !important;
+  width: 325px !important;
+}
+
+.buttons {
+  align-items: center;
+  border-radius: 10px;
+  display: inline-flex;
+  gap: 16px;
+  justify-content: center;
+  padding: 10px 16px;
+  position: relative;
+}
+
+.buttons .button-primary {
+  color: var(--text);
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-style: var(--body-font-style);
+  font-weight: var(--body-font-weight);
+  letter-spacing: var(--body-letter-spacing);
+  line-height: var(--body-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.buttons.primary {
+  background-color: var(--primary);
+  cursor: pointer;
+}
+
+.buttons.secondary {
+  background-color: var(--secondary);
+  cursor: pointer;
+}
+
