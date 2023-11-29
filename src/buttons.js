@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 import React from "react";
-import "../index.css";
 
 //TODO check text1 and text, that is not how it is supposed to be
 export const Buttons = ({ type, text, text1, className, onClick }) => {
