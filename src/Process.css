@@ -1,0 +1,183 @@
+@import url('./styleguide.css');
+
+.process,
+.process * {
+    box-sizing: border-box;
+}
+
+.process {
+    background: var(--background, #020203);
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    overflow: hidden;
+}
+
+.header {
+    padding: 0px 40px 0px 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 26px;
+}
+
+
+
+
+
+.process-block-active-variant-2 {
+    width: 544px;
+    height: 325px;
+    position: absolute;
+    left: 120px;
+    top: 200px;
+}
+
+.rectangle-13 {
+    background: var(--primary, #807fa4);
+    border-radius: 10px;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+}
+
+.ai-strategy {
+    color: var(--text, #f3f3f7);
+    text-align: left;
+    font-family: var(--navigation-font-family, "FiraSans-Bold", sans-serif);
+    font-size: var(--navigation-font-size, 48px);
+    font-weight: var(--navigation-font-weight, 700);
+    position: absolute;
+    right: 6.43%;
+    left: 6.43%;
+    width: 87.13%;
+    bottom: 74.77%;
+    top: 7.38%;
+    height: 17.85%;
+}
+
+.every-project-starts-with-a-goal-every-goal-should-align-with-the-strategy-we-will-develop-the-latter-for-you {
+    color: var(--text, #f3f3f7);
+    text-align: left;
+    font-family: var(--body-font-family, "FiraSans-Regular", sans-serif);
+    font-size: var(--body-font-size, 32px);
+    font-weight: var(--body-font-weight, 400);
+    position: absolute;
+    right: 6.43%;
+    left: 12.13%;
+    width: 81.43%;
+    bottom: 9.23%;
+    top: 38.15%;
+    height: 52.62%;
+}
+
+.process-block-non-active {
+    width: 544px;
+    height: 325px;
+    position: absolute;
+    left: 782px;
+    top: 200px;
+}
+
+.rectangle-14 {
+    border-radius: 0px;
+    height: auto;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+    overflow: visible;
+}
+
+.non-active {
+    color: var(--text, #f3f3f7);
+    text-align: left;
+    font-family: var(--navigation-font-family, "FiraSans-Bold", sans-serif);
+    font-size: var(--navigation-font-size, 48px);
+    font-weight: var(--navigation-font-weight, 700);
+    position: absolute;
+    right: 6.43%;
+    left: 6.43%;
+    width: 87.13%;
+    bottom: 74.77%;
+    top: 7.38%;
+    height: 17.85%;
+}
+
+.explanation {
+    color: var(--text, #f3f3f7);
+    text-align: left;
+    font-family: var(--body-font-family, "FiraSans-Regular", sans-serif);
+    font-size: var(--body-font-size, 32px);
+    font-weight: var(--body-font-weight, 400);
+    position: absolute;
+    right: 6.43%;
+    left: 11.21%;
+    width: 82.35%;
+    bottom: 9.23%;
+    top: 38.15%;
+    height: 52.62%;
+}
+
+.process-block-non-active2 {
+    width: 544px;
+    height: 325px;
+    position: absolute;
+    left: 120px;
+    top: 617px;
+}
+
+.rectangle-142 {
+    border-radius: 0px;
+    height: auto;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+    overflow: visible;
+}
+
+.process-block-non-active3 {
+    width: 544px;
+    height: 325px;
+    position: absolute;
+    left: 782px;
+    top: 617px;
+}
+
+.rectangle-143 {
+    border-radius: 0px;
+    height: auto;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+    overflow: visible;
+}
+
+
+
+.process-block-active-variant-2:hover .rectangle-13,
+.process-block-non-active:hover .rectangle-14,
+.process-block-non-active2:hover .rectangle-142,
+.process-block-non-active3:hover .rectangle-143 {
+    background: #807FA4;
+    /* Replace with your desired hover color */
+}
